@@ -85,8 +85,9 @@
   doi              = {10.48550/arxiv.2005.12872},
   eprint           = {2005.12872},
   file             = {:Carion2020 - End to End Object Detection with Transformers.pdf:PDF},
+  groups           = {PMO AI},
   keywords         = {cs.CV},
-  modificationdate = {2025-01-28T22:53:52},
+  modificationdate = {2025-04-02T13:24:07},
   primaryclass     = {cs.CV},
   priority         = {prio1},
   readstatus       = {read},
@@ -509,9 +510,9 @@
   file             = {:Jiang2023a - Far3D_ Expanding the Horizon for Surround View 3D Object Detection.pdf:PDF},
   groups           = {Reading Group Sparse Query},
   keywords         = {cs.CV},
-  modificationdate = {2025-01-28T22:53:52},
+  modificationdate = {2025-04-02T13:22:50},
   primaryclass     = {cs.CV},
-  priority         = {prio2},
+  priority         = {prio1},
 }
 
 @Article{Kingma2014AdamAM,
@@ -751,11 +752,13 @@
   month            = mar,
   abstract         = {In this paper, we develop position embedding transformation (PETR) for multi-view 3D object detection. PETR encodes the position information of 3D coordinates into image features, producing the 3D position-aware features. Object query can perceive the 3D position-aware features and perform end-to-end object detection. PETR achieves state-of-the-art performance (50.4% NDS and 44.1% mAP) on standard nuScenes dataset and ranks 1st place on the benchmark. It can serve as a simple yet strong baseline for future research. Code is available at \url{https://github.com/megvii-research/PETR}.},
   archiveprefix    = {arXiv},
+  comment          = {PETR, further info medium article: https://medium.com/@jiangmen28/petr-position-embedding-transformation-for-multi-view-3d-object-detection-70cbeb5c3701},
   doi              = {10.48550/arxiv.2203.05625},
   eprint           = {2203.05625},
   file             = {:Liu2022 - PETR_ Position Embedding Transformation for Multi View 3D Object Detection.pdf:PDF},
+  groups           = {PMO AI},
   keywords         = {cs.CV},
-  modificationdate = {2025-02-10T16:36:05},
+  modificationdate = {2025-04-03T08:50:23},
   primaryclass     = {cs.CV},
   priority         = {prio1},
   readstatus       = {read},
@@ -768,13 +771,16 @@
   month            = jun,
   abstract         = {In this paper, we propose PETRv2, a unified framework for 3D perception from multi-view images. Based on PETR, PETRv2 explores the effectiveness of temporal modeling, which utilizes the temporal information of previous frames to boost 3D object detection. More specifically, we extend the 3D position embedding (3D PE) in PETR for temporal modeling. The 3D PE achieves the temporal alignment on object position of different frames. A feature-guided position encoder is further introduced to improve the data adaptability of 3D PE. To support for multi-task learning (e.g., BEV segmentation and 3D lane detection), PETRv2 provides a simple yet effective solution by introducing task-specific queries, which are initialized under different spaces. PETRv2 achieves state-of-the-art performance on 3D object detection, BEV segmentation and 3D lane detection. Detailed robustness analysis is also conducted on PETR framework. We hope PETRv2 can serve as a strong baseline for 3D perception. Code is available at \url{https://github.com/megvii-research/PETR}.},
   archiveprefix    = {arXiv},
+  comment          = {PETRv2},
   doi              = {10.48550/arxiv.2206.01256},
   eprint           = {2206.01256},
   file             = {:Liu2022a - PETRv2_ a Unified Framework for 3D Perception from Multi Camera Images.pdf:PDF},
+  groups           = {PMO AI},
   keywords         = {cs.CV},
-  modificationdate = {2025-01-28T22:53:52},
+  modificationdate = {2025-04-02T13:24:37},
   primaryclass     = {cs.CV},
   priority         = {prio1},
+  readstatus       = {read},
 }
 
 @Article{Liu2022b,
@@ -835,6 +841,24 @@
   primaryclass     = {cs.CV},
 }
 
+@Article{Luiten2020,
+  author           = {Jonathon Luiten and Aljosa Osep and Patrick Dendorfer and Philip Torr and Andreas Geiger and Laura Leal-Taixe and Bastian Leibe},
+  journal          = {International Journal of Computer Vision (2020)},
+  title            = {HOTA: A Higher Order Metric for Evaluating Multi-Object Tracking},
+  year             = {2020},
+  month            = sep,
+  abstract         = {Multi-Object Tracking (MOT) has been notoriously difficult to evaluate. Previous metrics overemphasize the importance of either detection or association. To address this, we present a novel MOT evaluation metric, HOTA (Higher Order Tracking Accuracy), which explicitly balances the effect of performing accurate detection, association and localization into a single unified metric for comparing trackers. HOTA decomposes into a family of sub-metrics which are able to evaluate each of five basic error types separately, which enables clear analysis of tracking performance. We evaluate the effectiveness of HOTA on the MOTChallenge benchmark, and show that it is able to capture important aspects of MOT performance not previously taken into account by established metrics. Furthermore, we show HOTA scores better align with human visual evaluation of tracking performance.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-07-16T08:45:17},
+  doi              = {10.1007/s11263-020-01375-2},
+  eprint           = {2009.07736},
+  file             = {:- HOTA_ a Higher Order Metric for Evaluating Multi Object Tracking.pdf:PDF},
+  keywords         = {cs.CV},
+  modificationdate = {2025-07-16T08:45:28},
+  primaryclass     = {cs.CV},
+  priority         = {prio1},
+}
+
 @Article{Lv2024,
   author           = {Wenyu Lv and Yian Zhao and Qinyao Chang and Kui Huang and Guanzhong Wang and Yi Liu},
   title            = {RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer},
@@ -864,6 +888,22 @@
   file             = {:Ma2022 - Vision Centric BEV Perception_ a Survey.pdf:PDF},
   keywords         = {cs.CV},
   modificationdate = {2025-01-28T22:53:52},
+  primaryclass     = {cs.CV},
+}
+
+@Article{Milan2016,
+  author           = {Anton Milan and Laura Leal-Taixe and Ian Reid and Stefan Roth and Konrad Schindler},
+  title            = {MOT16: A Benchmark for Multi-Object Tracking},
+  year             = {2016},
+  month            = mar,
+  abstract         = {Standardized benchmarks are crucial for the majority of computer vision applications. Although leaderboards and ranking tables should not be over-claimed, benchmarks often provide the most objective measure of performance and are therefore important guides for reseach. Recently, a new benchmark for Multiple Object Tracking, MOTChallenge, was launched with the goal of collecting existing and new data and creating a framework for the standardized evaluation of multiple object tracking methods. The first release of the benchmark focuses on multiple people tracking, since pedestrians are by far the most studied object in the tracking community. This paper accompanies a new release of the MOTChallenge benchmark. Unlike the initial release, all videos of MOT16 have been carefully annotated following a consistent protocol. Moreover, it not only offers a significant increase in the number of labeled boxes, but also provides multiple object classes beside pedestrians and the level of visibility for every single object of interest.},
+  archiveprefix    = {arXiv},
+  comment          = {MOT},
+  creationdate     = {2025-07-21T09:47:04},
+  eprint           = {1603.00831},
+  file             = {:Milan2016 - MOT16_ a Benchmark for Multi Object Tracking.pdf:PDF},
+  keywords         = {cs.CV},
+  modificationdate = {2025-07-21T09:47:12},
   primaryclass     = {cs.CV},
 }
 
@@ -929,6 +969,22 @@
   file             = {:Pittner2024 - LaneCPP_ Continuous 3D Lane Detection Using Physical Priors.pdf:PDF},
   keywords         = {cs.CV},
   modificationdate = {2025-01-28T22:53:52},
+  primaryclass     = {cs.CV},
+}
+
+@Article{Ristani2016,
+  author           = {Ergys Ristani and Francesco Solera and Roger S. Zou and Rita Cucchiara and Carlo Tomasi},
+  title            = {Performance Measures and a Data Set for Multi-Target, Multi-Camera Tracking},
+  year             = {2016},
+  month            = sep,
+  abstract         = {To help accelerate progress in multi-target, multi-camera tracking systems, we present (i) a new pair of precision-recall measures of performance that treats errors of all types uniformly and emphasizes correct identification over sources of error; (ii) the largest fully-annotated and calibrated data set to date with more than 2 million frames of 1080p, 60fps video taken by 8 cameras observing more than 2,700 identities over 85 minutes; and (iii) a reference software system as a comparison baseline. We show that (i) our measures properly account for bottom-line identity match performance in the multi-camera setting; (ii) our data set poses realistic challenges to current trackers; and (iii) the performance of our system is comparable to the state of the art.},
+  archiveprefix    = {arXiv},
+  comment          = {IDF1},
+  creationdate     = {2025-07-21T09:46:03},
+  eprint           = {1609.01775},
+  file             = {:- Performance Measures and a Data Set for Multi Target, Multi Camera Tracking.pdf:PDF},
+  keywords         = {cs.CV},
+  modificationdate = {2025-07-21T09:46:20},
   primaryclass     = {cs.CV},
 }
 
@@ -1094,6 +1150,22 @@
   publisher        = {arXiv},
 }
 
+@Article{Tahiraj2025,
+  author           = {Ilir Tahiraj and Jeremialie Swadiryus and Felix Fent and Markus Lienkamp},
+  title            = {Cal or No Cal? -- Real-Time Miscalibration Detection of LiDAR and Camera Sensors},
+  year             = {2025},
+  month            = mar,
+  abstract         = {The goal of extrinsic calibration is the alignment of sensor data to ensure an accurate representation of the surroundings and enable sensor fusion applications. From a safety perspective, sensor calibration is a key enabler of autonomous driving. In the current state of the art, a trend from target-based offline calibration towards targetless online calibration can be observed. However, online calibration is subject to strict real-time and resource constraints which are not met by state-of-the-art methods. This is mainly due to the high number of parameters to estimate, the reliance on geometric features, or the dependence on specific vehicle maneuvers. To meet these requirements and ensure the vehicle's safety at any time, we propose a miscalibration detection framework that shifts the focus from the direct regression of calibration parameters to a binary classification of the calibration state, i.e., calibrated or miscalibrated. Therefore, we propose a contrastive learning approach that compares embedded features in a latent space to classify the calibration state of two different sensor modalities. Moreover, we provide a comprehensive analysis of the feature embeddings and challenging calibration errors that highlight the performance of our approach. As a result, our method outperforms the current state-of-the-art in terms of detection performance, inference time, and resource demand. The code is open source and available on https://github.com/TUMFTM/MiscalibrationDetection.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-04-08T10:44:37},
+  eprint           = {2504.01040},
+  file             = {:Tahiraj2025 - Cal or No Cal_ Real Time Miscalibration Detection of LiDAR and Camera Sensors.pdf:PDF},
+  groups           = {check next},
+  keywords         = {cs.CV, cs.RO},
+  modificationdate = {2025-04-08T10:44:59},
+  primaryclass     = {cs.CV},
+}
+
 @Article{Tan2019,
   author           = {Tan, Mingxing and Le, Quoc V.},
   journal          = {International Conference on Machine Learning, 2019},
@@ -1172,11 +1244,13 @@
   month            = oct,
   abstract         = {We introduce a framework for multi-camera 3D object detection. In contrast to existing works, which estimate 3D bounding boxes directly from monocular images or use depth prediction networks to generate input for 3D object detection from 2D information, our method manipulates predictions directly in 3D space. Our architecture extracts 2D features from multiple camera images and then uses a sparse set of 3D object queries to index into these 2D features, linking 3D positions to multi-view images using camera transformation matrices. Finally, our model makes a bounding box prediction per object query, using a set-to-set loss to measure the discrepancy between the ground-truth and the prediction. This top-down approach outperforms its bottom-up counterpart in which object bounding box prediction follows per-pixel depth estimation, since it does not suffer from the compounding error introduced by a depth prediction model. Moreover, our method does not require post-processing such as non-maximum suppression, dramatically improving inference speed. We achieve state-of-the-art performance on the nuScenes autonomous driving benchmark.},
   archiveprefix    = {arXiv},
+  comment          = {DETR3D},
   doi              = {10.48550/arxiv.2110.06922},
   eprint           = {2110.06922},
   file             = {:Wang2021 - DETR3D_ 3D Object Detection from Multi View Images Via 3D to 2D Queries.pdf:PDF},
+  groups           = {PMO AI},
   keywords         = {cs.CV, cs.AI, cs.LG, cs.RO},
-  modificationdate = {2025-02-10T15:16:26},
+  modificationdate = {2025-04-02T13:24:46},
   primaryclass     = {cs.CV},
   priority         = {prio1},
   readstatus       = {read},
@@ -1194,9 +1268,9 @@
   eprint           = {2212.05505},
   file             = {:Wang2022 - Focal PETR_ Embracing Foreground for Efficient Multi Camera 3D Object Detection.pdf:PDF},
   keywords         = {cs.CV},
-  modificationdate = {2025-01-28T22:53:52},
+  modificationdate = {2025-04-02T13:22:46},
   primaryclass     = {cs.CV},
-  priority         = {prio2},
+  priority         = {prio1},
 }
 
 @Article{Wang2023,
@@ -1297,6 +1371,22 @@
   primaryclass     = {cs.CV},
 }
 
+@Article{Xu2023,
+  author           = {Sheng Xu and Yanjing Li and Mingbao Lin and Peng Gao and Guodong Guo and Jinhu Lu and Baochang Zhang},
+  title            = {Q-DETR: An Efficient Low-Bit Quantized Detection Transformer},
+  year             = {2023},
+  month            = apr,
+  abstract         = {The recent detection transformer (DETR) has advanced object detection, but its application on resource-constrained devices requires massive computation and memory resources. Quantization stands out as a solution by representing the network in low-bit parameters and operations. However, there is a significant performance drop when performing low-bit quantized DETR (Q-DETR) with existing quantization methods. We find that the bottlenecks of Q-DETR come from the query information distortion through our empirical analyses. This paper addresses this problem based on a distribution rectification distillation (DRD). We formulate our DRD as a bi-level optimization problem, which can be derived by generalizing the information bottleneck (IB) principle to the learning of Q-DETR. At the inner level, we conduct a distribution alignment for the queries to maximize the self-information entropy. At the upper level, we introduce a new foreground-aware query matching scheme to effectively transfer the teacher information to distillation-desired features to minimize the conditional information entropy. Extensive experimental results show that our method performs much better than prior arts. For example, the 4-bit Q-DETR can theoretically accelerate DETR with ResNet-50 backbone by 6.6x and achieve 39.4% AP, with only 2.6% performance gaps than its real-valued counterpart on the COCO dataset.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-04-24T12:03:28},
+  eprint           = {2304.00253},
+  file             = {:- Q DETR_ an Efficient Low Bit Quantized Detection Transformer.pdf:PDF},
+  keywords         = {cs.CV},
+  modificationdate = {2025-04-24T12:03:56},
+  primaryclass     = {cs.CV},
+  priority         = {prio1},
+}
+
 @Article{Yan2023,
   author           = {Junjie Yan and Yingfei Liu and Jianjian Sun and Fan Jia and Shuailin Li and Tiancai Wang and Xiangyu Zhang},
   title            = {Cross Modal Transformer: Towards Fast and Robust 3D Object Detection},
@@ -1342,6 +1432,22 @@
   file             = {:Yu2024 - PolarBEVDet_ Exploring Polar Representation for Multi View 3D Object Detection in Bird's Eye View.pdf:PDF},
   keywords         = {cs.CV, cs.AI},
   modificationdate = {2025-01-28T22:53:52},
+  primaryclass     = {cs.CV},
+  priority         = {prio1},
+}
+
+@Article{Yu2025,
+  author           = {Jiangyong Yu and Changyong Shu and Dawei Yang and Sifan Zhou and Zichen Yu and Xing Hu and Yan Chen},
+  title            = {Q-PETR: Quant-aware Position Embedding Transformation for Multi-View 3D Object Detection},
+  year             = {2025},
+  month            = feb,
+  abstract         = {Camera-based multi-view 3D detection has emerged as an attractive solution for autonomous driving due to its low cost and broad applicability. However, despite the strong performance of PETR-based methods in 3D perception benchmarks, their direct INT8 quantization for onboard deployment leads to drastic accuracy drops-up to 58.2% in mAP and 36.9% in NDS on the NuScenes dataset. In this work, we propose Q-PETR, a quantization-aware position embedding transformation that re-engineers key components of the PETR framework to reconcile the discrepancy between the dynamic ranges of positional encodings and image features, and to adapt the cross-attention mechanism for low-bit inference. By redesigning the positional encoding module and introducing an adaptive quantization strategy, Q-PETR maintains floating-point performance with a performance degradation of less than 1% under standard 8-bit per-tensor post-training quantization. Moreover, compared to its FP32 counterpart, Q-PETR achieves a two-fold speedup and reduces memory usage by three times, thereby offering a deployment-friendly solution for resource-constrained onboard devices. Extensive experiments across various PETR-series models validate the strong generalization and practical benefits of our approach.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-04-24T12:03:46},
+  eprint           = {2502.15488},
+  file             = {:- Q PETR_ Quant Aware Position Embedding Transformation for Multi View 3D Object Detection.pdf:PDF},
+  keywords         = {cs.CV, cs.AI},
+  modificationdate = {2025-04-24T12:03:50},
   primaryclass     = {cs.CV},
   priority         = {prio1},
 }
@@ -1433,12 +1539,14 @@
   month            = oct,
   abstract         = {DETR has been recently proposed to eliminate the need for many hand-designed components in object detection while demonstrating good performance. However, it suffers from slow convergence and limited feature spatial resolution, due to the limitation of Transformer attention modules in processing image feature maps. To mitigate these issues, we proposed Deformable DETR, whose attention modules only attend to a small set of key sampling points around a reference. Deformable DETR can achieve better performance than DETR (especially on small objects) with 10 times less training epochs. Extensive experiments on the COCO benchmark demonstrate the effectiveness of our approach. Code is released at https://github.com/fundamentalvision/Deformable-DETR.},
   archiveprefix    = {arXiv},
+  comment          = {Deformable DETR},
   creationdate     = {2024-10-21T16:46:37},
   doi              = {10.48550/arxiv.2010.04159},
   eprint           = {2010.04159},
   file             = {:Zhu2020 - Deformable DETR_ Deformable Transformers for End to End Object Detection.pdf:PDF},
+  groups           = {PMO AI},
   keywords         = {cs.CV},
-  modificationdate = {2025-01-28T22:53:52},
+  modificationdate = {2025-04-02T13:24:51},
   primaryclass     = {cs.CV},
   priority         = {prio1},
   readstatus       = {read},
@@ -1457,6 +1565,8 @@
 2 SearchGroup:read\;0\;readstatus=read\;0\;0\;1\;0x00ff00ff\;READ\;\;;
 2 SearchGroup:to be read\;0\;not readstatus=read and not readstatus=skimmed\;0\;0\;1\;0xff0000ff\;EYE\;\;;
 2 SearchGroup:skimmed\;0\;readstatus=skimmed\;0\;0\;0\;0xffff4dff\;RUN_FAST\;\;;
+1 StaticGroup:PMO AI\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:check next\;0\;1\;0x8a8a8aff\;\;\;;
 }
 
 @Comment{jabref-meta: saveOrderConfig:specified;citationkey;false;author;false;title;true;}
