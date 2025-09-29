@@ -74,6 +74,22 @@
   readstatus       = {read},
 }
 
+@Article{Bahdanau2014,
+  author           = {Dzmitry Bahdanau and Kyunghyun Cho and Yoshua Bengio},
+  title            = {Neural Machine Translation by Jointly Learning to Align and Translate},
+  year             = {2014},
+  month            = sep,
+  abstract         = {Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-08-26T09:22:54},
+  eprint           = {1409.0473},
+  file             = {:Bahdanau2014 - Neural Machine Translation by Jointly Learning to Align and Translate.pdf:PDF},
+  keywords         = {cs.CL, cs.LG, cs.NE, stat.ML},
+  modificationdate = {2025-08-26T09:23:01},
+  primaryclass     = {cs.CL},
+  priority         = {prio1},
+}
+
 @Article{Carion2020,
   author           = {Nicolas Carion and Francisco Massa and Gabriel Synnaeve and Nicolas Usunier and Alexander Kirillov and Sergey Zagoruyko},
   title            = {End-to-End Object Detection with Transformers},
@@ -550,9 +566,10 @@
   file             = {:Jiang2023a - Far3D_ Expanding the Horizon for Surround View 3D Object Detection.pdf:PDF},
   groups           = {Reading Group Sparse Query},
   keywords         = {cs.CV},
-  modificationdate = {2025-04-02T13:22:50},
+  modificationdate = {2025-08-06T08:43:39},
   primaryclass     = {cs.CV},
   priority         = {prio1},
+  readstatus       = {read},
 }
 
 @Article{Kingma2014AdamAM,
@@ -714,9 +731,10 @@
   file             = {:Lin2022 - Sparse4D_ Multi View 3D Object Detection with Sparse Spatial Temporal Fusion.pdf:PDF},
   groups           = {Reading Group Sparse Query},
   keywords         = {cs.CV},
-  modificationdate = {2025-01-28T22:53:52},
+  modificationdate = {2025-08-07T11:19:16},
   primaryclass     = {cs.CV},
   priority         = {prio1},
+  readstatus       = {read},
 }
 
 @Article{Lin2023,
@@ -963,6 +981,22 @@
   primaryclass     = {cs.SD},
 }
 
+@Article{Oquab2023,
+  author           = {Maxime Oquab and Timothée Darcet and Théo Moutakanni and Huy Vo and Marc Szafraniec and Vasil Khalidov and Pierre Fernandez and Daniel Haziza and Francisco Massa and Alaaeldin El-Nouby and Mahmoud Assran and Nicolas Ballas and Wojciech Galuba and Russell Howes and Po-Yao Huang and Shang-Wen Li and Ishan Misra and Michael Rabbat and Vasu Sharma and Gabriel Synnaeve and Hu Xu and Hervé Jegou and Julien Mairal and Patrick Labatut and Armand Joulin and Piotr Bojanowski},
+  title            = {DINOv2: Learning Robust Visual Features without Supervision},
+  year             = {2023},
+  month            = apr,
+  abstract         = {The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by producing all-purpose visual features, i.e., features that work across image distributions and tasks without finetuning. This work shows that existing pretraining methods, especially self-supervised methods, can produce such features if trained on enough curated data from diverse sources. We revisit existing approaches and combine different techniques to scale our pretraining in terms of data and model size. Most of the technical contributions aim at accelerating and stabilizing the training at scale. In terms of data, we propose an automatic pipeline to build a dedicated, diverse, and curated image dataset instead of uncurated data, as typically done in the self-supervised literature. In terms of models, we train a ViT model (Dosovitskiy et al., 2020) with 1B parameters and distill it into a series of smaller models that surpass the best available all-purpose features, OpenCLIP (Ilharco et al., 2021) on most of the benchmarks at image and pixel levels.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-09-05T08:22:36},
+  eprint           = {2304.07193},
+  file             = {:Oquab2023 - DINOv2_ Learning Robust Visual Features without Supervision.pdf:PDF},
+  keywords         = {cs.CV},
+  modificationdate = {2025-09-05T08:22:53},
+  primaryclass     = {cs.CV},
+  priority         = {prio1},
+}
+
 @Article{Pan2024,
   author           = {Chenbin Pan and Burhaneddin Yaman and Tommaso Nesti and Abhirup Mallik and Alessandro G Allievi and Senem Velipasalar and Liu Ren},
   journal          = {CVPR2024},
@@ -1197,6 +1231,22 @@
   primaryclass     = {cs.CV},
 }
 
+@Article{Simeoni2025,
+  author           = {Oriane Siméoni and Huy V. Vo and Maximilian Seitzer and Federico Baldassarre and Maxime Oquab and Cijo Jose and Vasil Khalidov and Marc Szafraniec and Seungeun Yi and Michaël Ramamonjisoa and Francisco Massa and Daniel Haziza and Luca Wehrstedt and Jianyuan Wang and Timothée Darcet and Théo Moutakanni and Leonel Sentana and Claire Roberts and Andrea Vedaldi and Jamie Tolan and John Brandt and Camille Couprie and Julien Mairal and Hervé Jégou and Patrick Labatut and Piotr Bojanowski},
+  title            = {DINOv3},
+  year             = {2025},
+  month            = aug,
+  abstract         = {Self-supervised learning holds the promise of eliminating the need for manual data annotation, enabling models to scale effortlessly to massive datasets and larger architectures. By not being tailored to specific tasks or domains, this training paradigm has the potential to learn visual representations from diverse sources, ranging from natural to aerial images -- using a single algorithm. This technical report introduces DINOv3, a major milestone toward realizing this vision by leveraging simple yet effective strategies. First, we leverage the benefit of scaling both dataset and model size by careful data preparation, design, and optimization. Second, we introduce a new method called Gram anchoring, which effectively addresses the known yet unsolved issue of dense feature maps degrading during long training schedules. Finally, we apply post-hoc strategies that further enhance our models' flexibility with respect to resolution, model size, and alignment with text. As a result, we present a versatile vision foundation model that outperforms the specialized state of the art across a broad range of settings, without fine-tuning. DINOv3 produces high-quality dense features that achieve outstanding performance on various vision tasks, significantly surpassing previous self- and weakly-supervised foundation models. We also share the DINOv3 suite of vision models, designed to advance the state of the art on a wide spectrum of tasks and data by providing scalable solutions for diverse resource constraints and deployment scenarios.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-09-05T08:22:43},
+  eprint           = {2508.10104},
+  file             = {:Simeoni2025 - DINOv3.pdf:PDF},
+  keywords         = {cs.CV, cs.LG},
+  modificationdate = {2025-09-05T08:22:53},
+  primaryclass     = {cs.CV},
+  priority         = {prio1},
+}
+
 @Article{Simonyan2014,
   author           = {Simonyan, Karen and Zisserman, Andrew},
   title            = {Very Deep Convolutional Networks for Large-Scale Image Recognition},
@@ -1387,9 +1437,10 @@
   eprint           = {2212.05505},
   file             = {:Wang2022 - Focal PETR_ Embracing Foreground for Efficient Multi Camera 3D Object Detection.pdf:PDF},
   keywords         = {cs.CV},
-  modificationdate = {2025-04-02T13:22:46},
+  modificationdate = {2025-08-05T09:28:35},
   primaryclass     = {cs.CV},
   priority         = {prio1},
+  readstatus       = {read},
 }
 
 @Article{Wang2023,
@@ -1570,6 +1621,21 @@
   modificationdate = {2025-04-24T12:03:50},
   primaryclass     = {cs.CV},
   priority         = {prio1},
+}
+
+@Article{Zeiler2013,
+  author           = {Matthew D Zeiler and Rob Fergus},
+  title            = {Visualizing and Understanding Convolutional Networks},
+  year             = {2013},
+  month            = nov,
+  abstract         = {Large Convolutional Network models have recently demonstrated impressive classification performance on the ImageNet benchmark. However there is no clear understanding of why they perform so well, or how they might be improved. In this paper we address both issues. We introduce a novel visualization technique that gives insight into the function of intermediate feature layers and the operation of the classifier. We also perform an ablation study to discover the performance contribution from different model layers. This enables us to find model architectures that outperform Krizhevsky \etal on the ImageNet classification benchmark. We show our ImageNet model generalizes well to other datasets: when the softmax classifier is retrained, it convincingly beats the current state-of-the-art results on Caltech-101 and Caltech-256 datasets.},
+  archiveprefix    = {arXiv},
+  creationdate     = {2025-08-20T10:55:36},
+  eprint           = {1311.2901},
+  file             = {:Zeiler2013 - Visualizing and Understanding Convolutional Networks.pdf:PDF},
+  keywords         = {cs.CV},
+  modificationdate = {2025-08-20T10:55:41},
+  primaryclass     = {cs.CV},
 }
 
 @Article{Zeng2021,
